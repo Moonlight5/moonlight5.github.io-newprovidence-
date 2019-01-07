@@ -1,0 +1,269 @@
+/*Лептоп 992-1200*/
+
+@media screen and (max-width: 1200px) {
+	.list-r {
+        right: -70%;
+    }
+
+    .screen_two{
+        right: 63%;
+    }
+
+    .screen_four{
+        left: 65%;
+    }
+
+    .screen_one, .screen_five{
+        display: none;
+    }
+
+    .btn-green_form {
+        right: 219px;
+    }
+
+    .btn-green_form-down {
+        right: 168px;
+    }
+
+}	
+
+/*Планшет 768-991*/
+
+@media screen and (max-width: 991px) {
+    .logo{
+        position: absolute;
+        left: 40%;
+        top: 10px;
+    }
+
+    .get{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    .list-r{
+        position: static;
+    }
+
+    .navbar-toggler{
+        position: relative;
+        left: -17px;
+    }
+    
+    .first-b{
+        margin: 0 10px 120px;
+    }
+    
+    .iPhone{
+        opacity: 0.3;
+    }
+
+    .day__text p, .everywhere__text p{
+        color: #464545;
+    }
+    #everywhere {
+        padding-top: 320px;
+    }
+
+    .everywhere{
+        position: relative;
+        z-index: 2;
+    }
+    
+    .map{
+        position: absolute;
+        z-index: 1;
+        opacity: 0.4;
+    }
+
+    .screen_two, .screen_four{
+        display: none;
+    }
+
+    #interface{
+        height: 1000px;
+        padding: 100px 0;
+    }
+
+    .btn-green_form {
+        right: 98px;
+    }
+    .slick-arrow{
+        display: none !important;
+    }
+
+    #plan{
+        padding-top: 80px;
+    }
+
+    .plan-body-r{
+        display: block !important;
+    }
+
+    .plan-block{
+        height: auto;
+        width: 450px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .price{
+        margin: 10px auto;
+    }
+
+    .plan-block h4{
+        margin-bottom: 20px;
+    }
+
+    .plan-block-btn{
+        margin: 20px auto;
+    }
+
+    .plan-btn-body{
+        width: 200px;
+        height: 50px;
+        padding-top: 12px;
+        padding-left: 7px;
+    }
+    .plan-btn_right{
+        margin: 0;
+    }
+
+    .plan-btn_on{
+        padding: 10px;
+    }
+    .btn-green_form-down {
+        right: 48px;
+    } 
+
+}
+
+/*Большой телефон 576-767*/
+
+@media screen and (max-width: 767px){
+    .video{
+        margin: 30px auto;
+    }
+
+    #first{
+        padding-top: 70px;
+    }
+
+    .first-b{
+        margin-bottom: 70px;
+    }
+
+    .first-h{
+        margin: 25px 0;
+    }
+
+    #protected {
+        padding-top: 80px;
+    }
+
+    #everywhere {
+        padding-top: 140px;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .btn-green_form {
+        right: 8px;
+    }
+
+    .plan-text {
+        margin-top: 20px;
+    }
+
+    .plan-span {
+        margin-top: 15px;
+    }
+
+    #plan {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .email {
+        width: 420px;
+    }
+
+    .btn-green_form {
+        right: 48px;
+        width: 145px;
+    }
+
+    .foo-left__text, .learn__item, .aboutUs__item, .support__item{	
+        margin-top: 7px;
+        font-size: 0.8em;
+    }
+
+    .foo-left__item a {
+        font-size: 2.1em;
+        margin: 0;
+    }
+
+    .foo-left__item{
+        margin-right: 25px;
+    }
+
+}
+
+/*маленький телефон 320-575*/
+
+@media screen and (max-width: 575px){
+    .logo{
+        left: 30%;
+    }
+
+    .get{
+        width: 35px;
+        height: 35px;
+        font-size: 1.5em;
+        line-height: 32px;
+    }
+
+    .get__name span{
+        display: none;
+    }
+
+    .title-group {
+
+        margin-top: 70px;
+    
+    }
+
+    #everywhere {
+        padding-top: 70px;
+    }
+
+    .email{
+        width: 100%;
+    }
+
+    .btn-green_form {
+        width: 100%;
+        right: 0;
+        top: 60px;
+    }
+
+    .app{
+        margin-top: 30px;
+    }
+
+    .plan-block {
+        width: auto;
+    }
+
+    .learn, .aboutUs, .support{	
+        display: none;
+    }
+
+    #footer{
+        background: #f4f4f5;
+        padding: 50px 0;
+    }
+}
